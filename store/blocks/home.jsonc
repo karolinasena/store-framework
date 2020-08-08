@@ -1,16 +1,10 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text",
       "info-card#button-right",
-      "info-card#button-left"
+      "info-card#button-left",
+      "shelf"
     ]
-  },
-  "rich-text": {
-    "props": {
-      "text": "**Hello, World!**",
-      "textPosition": "LEFT"
-    }
   },
   "info-card#button-right": {
     "props": {
@@ -23,7 +17,7 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-       "blockClass": "vintage"
+      "blockClass": "vintage"
     }
   },
   "info-card#button-left": {
@@ -38,7 +32,6 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
       "blockClass": "metal"
-
     }
   }
 }
