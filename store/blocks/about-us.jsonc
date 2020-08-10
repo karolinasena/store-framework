@@ -73,15 +73,15 @@
             "rich-text#home1"
         ],
         "props": {
-            "tabId": "majorAppliances"
+            "tabId": "sobre"
         }
     },
     "tab-content.item#home2": {
         "children": [
-            "rich-text#home2"
+            "iframe#home2"
         ],
         "props": {
-            "tabId": "electronics"
+            "tabId": "instagram"
         }
     },
     "rich-text#home1": {
@@ -97,7 +97,7 @@
             "font": "t-heading-3"
         }
     },
-    "iframe": {
+    "iframe#home2": {
         "props": {
             "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
             "width": 800,
