@@ -166,5 +166,10 @@
         "text": "Cameras"
       }
     }
+  },
+  "vtex.menu@2.x:submenu#major": {
+    "children": [
+      "flex-layout.row#major" 
+    ]
   }
 }
